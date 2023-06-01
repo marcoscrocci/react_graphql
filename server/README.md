@@ -25,3 +25,15 @@ Executar o server:
 
 Tempo de vídeo: 11:29
 
+## 2 - Instalação e configuração para utilizar o banco de dados PostgreSQL
+
+Requistos: Ter um banco de dados PostgreSQL instalado no computador<br/>
+
+Comandos:<br/>
+>yarn add @mikro-orm/cli @mikro-orm/core @mikro-orm/migrations @mikro-orm/postgresql pg
+npx mikro-orm migration:create
+
+Documentação:<br/>
+https://mikro-orm.io/docs/defining-entities
+
+Tempo de vídeo: 32:22
