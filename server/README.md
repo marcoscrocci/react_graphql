@@ -56,3 +56,18 @@ Iniciar o banco de dados PostgreSQL e executar o server:
 
 Tempo de vídeo: 39:48
 
+## 5 - Instalando e configurando o ambiente Apollo Server e GraphQL
+
+Comandos:<br/>
+>yarn add express apollo-server-express graphql type-graphql
+>yarn add -D @types/express
+
+Obs.: Foi necessário fazer downgrade das versões dos itens instalados: express apollo-server-express graphql type-graphql, para funcionar o código do tutorial.
+
+Iniciar o banco de dados PostgreSQL e executar o server:
+>Terminal 1: yarn watch   -> Serão gerados arquivos na pasta dist/migrations<br/>
+>Terminal 2: yarn dev -> Serão executados os scripts da migrations e o comando insert na tabela post
+
+Tempo de vídeo: 47:30
+
+
