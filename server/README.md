@@ -33,7 +33,18 @@ Comandos:<br/>
 >yarn add @mikro-orm/cli @mikro-orm/core @mikro-orm/migrations @mikro-orm/postgresql pg
 npx mikro-orm migration:create
 
+Serão criados os arquivos na pasta src/migrations
+
 Documentação:<br/>
 https://mikro-orm.io/docs/defining-entities
 
 Tempo de vídeo: 32:22
+
+## 3 - Executando o arquivo migration e os comandos SQL
+
+Iniciar o banco de dados PostgreSQL e executar o server:
+>Terminal 1: yarn watch   -> Serão gerados arquivos na pasta dist/migrations<br/>
+>Terminal 2: yarn dev -> Serão executados os scripts da migrations e o comando insert na tabela post
+
+Tempo de vídeo: 38:03
+
