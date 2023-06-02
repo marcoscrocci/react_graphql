@@ -48,3 +48,11 @@ Iniciar o banco de dados PostgreSQL e executar o server:
 
 Tempo de vídeo: 38:03
 
+## 4 - Executando consultas no banco de dados
+
+Iniciar o banco de dados PostgreSQL e executar o server:
+>Terminal 1: yarn watch   -> Serão gerados arquivos na pasta dist/migrations<br/>
+>Terminal 2: yarn dev -> Serão executados os scripts da migrations e o comando insert na tabela post
+
+Tempo de vídeo: 39:48
+
